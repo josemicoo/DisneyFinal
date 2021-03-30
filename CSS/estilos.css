@@ -1,0 +1,227 @@
+*{margin: 0; padding: 0;}
+
+html {
+    background: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+header{
+background: #ac4b4b;
+weight: 20%
+
+}
+
+.imagen_logo {
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+header ul li {
+    float: right;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: right ;
+    border-radius:20px;
+    margin-top: 1.8% ;
+    text-align: left;
+}
+
+header ul li a {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: right;
+    font-style:normal;
+    text-decoration: none;
+    text-align: left;
+}
+
+header ul li:hover {
+    background-color: white;
+}
+
+header ul li a:hover {
+    color: black;
+}
+
+.imagen_banner {
+    width: 100%;
+}
+
+#contenedor {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#imagen_mickey_disney {
+    width: 30%;
+    margin-top: 3%;
+}
+
+.imagen_disney_mickey {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.txt_disney {
+    width: 50%;
+    float: right;
+    text-align: left;
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.boton {
+    width: 338px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50px ;
+    padding: 5px;
+    display: block ;
+    margin-left: 55%;
+    background-color: #AC4B4B;
+    color:#FFFFFF;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif, bold;
+
+}
+
+.boton h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 13px;
+    text-decoration: none;
+}
+
+.boton h1:hover {color: black;
+text-decoration: none;}
+
+.boton:hover {
+    background-color: rgb(139, 139, 139);
+    color: black;
+}
+
+
+
+
+.cajas {
+    margin-top: 4%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contenedor_cajas {
+    width: 100%; 
+}
+
+.caja1 {
+    width: 50%;
+    float: left;
+}
+
+.caja2 {
+    width: 50%;
+    float: right;
+}
+
+.imagenes {
+    width: 80%;
+    text-align: center;
+}
+
+.titulos_cajas {
+    width: 80%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: white;
+    color: black;
+  }
+
+  footer {
+      background-color: #C4C4C4;
+    height: 50px;
+  }
+
+  footer h1 {
+      font-size: 20px;
+      margin-top: 30%;
+      text-align: center;
+  }
+
+  .parrafos_disney {
+      width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+  }
+
+  .imagenes_walt {
+      text-align: center;
+      margin-top: 5%;
+  }
+
+  .tres_columnas {
+      width: 30%;
+      margin-left: 1%;
+      margin-right: 1%;
+      display: inline-block;
+      margin-top: 4%;
+      border-radius: ;
+ 
+  }
+
+  .tres_columnas:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+  }
+
+  .fotos_galeria {
+      width: 100%;
+      border-radius: 50px;
+  }
+
+  .fotos_galeria:hover {
+      border-radius: 0%;
+      transition: 0.5s;
+
+  }

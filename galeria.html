@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walt Disney | Galería</title>
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="/JS/lightbox-plus-jquery.min.js" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="/CSS/lightbox.min.css"/>	
+
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <a href="index.html" class="logo"><img src="/Images/logo.png"  class="imagen_logo" alt="logo"></a>
+                <li class="hvr-fade"><a href="walt.html">Más Sobre Walt</a></li>
+                <li class="hvr-fade"><a href="galeria.html">Galería</a></li>
+                <li class="hvr-fade"><a href="parques.html">Parques Tematicos</a></li>
+            </ul>
+        </div>
+
+        <div style="clear: right;"></div>
+
+    </header>
+    <main>
+        <img src="/Images/galeria-banner.jpg" alt="BANNER" class="imagen_banner">
+    </main>
+
+    <section>
+        <div id="contenedor">
+
+             <div class="tres_columnas">
+                <a href="/Images/foto-galeria-1.jpg" data-lightbox="roadtrip">
+                <img src="/Images/foto-galeria-1.jpg" class="fotos_galeria">
+                </a>
+            </div>
+
+            <div class="tres_columnas">
+                <a href="/Images/foto-galeria-2.jpg" data-lightbox="roadtrip">
+                <img src="/Images/foto-galeria-2.jpg" class="fotos_galeria">
+                </a>
+            </div>
+
+            <div class="tres_columnas">
+                <a href="/Images/foto-galeria-3.jpg" data-lightbox="roadtrip">
+                <img src="/Images/foto-galeria-3.jpg" class="fotos_galeria">
+                </a>
+            </div>
+
+            <div class="tres_columnas">
+                <a href="/Images/foto-galeria-4.jpg" data-lightbox="roadtrip">
+                <img src="/Images/foto-galeria-4.jpg" class="fotos_galeria">
+                </a>
+            </div>
+
+            <div class="tres_columnas">
+                <a href="/Images/foto-galeria-5.jpg" data-lightbox="roadtrip">
+                <img src="/Images/foto-galeria-5.jpg" class="fotos_galeria">
+                </a>
+            </div>
+
+            <div class="tres_columnas">
+                <a href="/Images/foto-galeria-1.jpg" data-lightbox="roadtrip">
+                <img src="/Images/foto-galeria-6.jpg" class="fotos_galeria">
+                </a>
+            </div>
+
+
+
+    <footer>
+        <h1>José Micó - Producción Digital II</h1>
+    </footer>
+
+    <script language="javascript">
+        function myFunction() {
+          var x = document.getElementById("mibarra");
+          if (x.className === "barratop") {
+            x.className += " responsive";
+          } else {
+            x.className = "barratop";
+          }
+        }
+        </script>
+                
+                            
+            
+        
+        <script src="lightbox-plus-jquery.min.js"></script>
+                    
+                    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+            var i;
+            // ac� define qu� elemento entra en el slider
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1} 
+            if (n < 1) {slideIndex = x.length} ;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none"; 
+            }
+            x[slideIndex-1].style.display = "block"; 
+        }
+            
+        carousel();
+        
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none"; 
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1} 
+            x[slideIndex-1].style.display = "block"; 
+            setTimeout(carousel, 2000); // Cambia la imagen cada 2 segundos
+        }
+        </script>
+        
+			
+
+
+
+</body>
+</html>
