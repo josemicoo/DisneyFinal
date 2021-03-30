@@ -218,10 +218,9 @@ a:hover {
   .fotos_galeria {
       width: 100%;
       border-radius: 50px;
+      transition: 0.5s;
   }
 
   .fotos_galeria:hover {
       border-radius: 0%;
-      transition: 0.5s;
-
   }
