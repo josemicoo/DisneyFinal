@@ -12,9 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
-    <link href="JS/lightbox-plus-jquery.min.js" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="CSS/lightbox.min.css"/>	
-
 </head>
 <body>
     <header>
@@ -79,57 +76,7 @@
         <h1>José Micó - Producción Digital II</h1>
     </footer>
 
-    <script language="javascript">
-        function myFunction() {
-          var x = document.getElementById("mibarra");
-          if (x.className === "barratop") {
-            x.className += " responsive";
-          } else {
-            x.className = "barratop";
-          }
-        }
-        </script>
-                
-                            
-            
-        
-        <script src="lightbox-plus-jquery.min.js"></script>
-                    
-                    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-        
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-        
-        function showDivs(n) {
-            var i;
-            // ac� define qu� elemento entra en el slider
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) {slideIndex = 1} 
-            if (n < 1) {slideIndex = x.length} ;
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none"; 
-            }
-            x[slideIndex-1].style.display = "block"; 
-        }
-            
-        carousel();
-        
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none"; 
-            }
-            slideIndex++;
-            if (slideIndex > x.length) {slideIndex = 1} 
-            x[slideIndex-1].style.display = "block"; 
-            setTimeout(carousel, 2000); // Cambia la imagen cada 2 segundos
-        }
-        </script>
-        
+   
 			
 
 
